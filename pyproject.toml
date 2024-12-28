@@ -1,0 +1,24 @@
+[project]
+name = "ai-playground"
+version = "0.1.0"
+description = "AI playground"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "logfire>=2.11.0",
+    "markitdown>=0.0.1a3",
+    "nltk>=3.9.1",
+    "ollama>=0.4.4",
+    "pydantic-ai>=0.0.15",
+    "pydantic-ai-slim[openai]>=0.0.15",
+    "sentence-transformers>=3.3.1",
+    "torch>=2.5.1",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = ["ipykernel>=6.29.5", "ipywidgets>=8.1.5"]
+
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+default = true
