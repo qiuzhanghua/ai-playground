@@ -46,7 +46,7 @@ requires-dist = [
     { name = "pathlib", specifier = ">=1.0.1" },
     { name = "pdf2image", specifier = ">=1.17.0" },
     { name = "pydantic-ai", specifier = ">=0.0.15" },
-    { name = "pydantic-ai-slim", extras = ["openai"], specifier = ">=0.0.15" },
+    { name = "pydantic-ai-slim", extras = ["openai"], specifier = ">=0.0.18" },
     { name = "sentence-transformers", specifier = ">=3.3.1" },
     { name = "torch", specifier = ">=2.5.1" },
     { name = "tqdm", specifier = ">=4.67.1" },
@@ -2461,19 +2461,19 @@ wheels = [
 
 [[package]]
 name = "pydantic-ai"
-version = "0.0.15"
+version = "0.0.18"
 source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }
 dependencies = [
     { name = "pydantic-ai-slim", extra = ["anthropic", "groq", "mistral", "openai", "vertexai"] },
 ]
-sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/db/5d/a5cf56fa084876b4d127174c859570f7a13fd133c8def4b7d58eb68c49ec/pydantic_ai-0.0.15.tar.gz", hash = "sha256:8e3c994a63180aa3c4ff1473c2175af9eb19cac30dce040005a355e788464f1b", size = 53561 }
+sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/9a/9b/0d617a69cb010f30e5687b3344b7f4a13a7cee290be9933aa9214914a769/pydantic_ai-0.0.18.tar.gz", hash = "sha256:23b050eb54583d0c7e8100cc16b57f2775483d5b17eeb1474e219dac516b15af", size = 57603 }
 wheels = [
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/80/42/d960eba844e2b7497358746aeedf8ba983275de36c7dffcaf53f8112026b/pydantic_ai-0.0.15-py3-none-any.whl", hash = "sha256:5327eef1bb8a7aa4d529149924b0176f4c07c4f9aba7d67cd26bf14bfb04b31f", size = 9722 },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/40/0a/a76e6cd3b5a38151e066d83f5d2c553cd344a1d6c4aba65f350936946a2e/pydantic_ai-0.0.18-py3-none-any.whl", hash = "sha256:130bafe3ad1061d8b4f5a61bb23402b33c35c0d9567330e9f06fd30c76abb292", size = 9641 },
 ]
 
 [[package]]
 name = "pydantic-ai-slim"
-version = "0.0.15"
+version = "0.0.18"
 source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }
 dependencies = [
     { name = "eval-type-backport" },
@@ -2482,9 +2482,9 @@ dependencies = [
     { name = "logfire-api" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/3e/74/777772bd028ac06dbb91f1cb6e498139746575cf2a4dcb755ef9e80f4ba7/pydantic_ai_slim-0.0.15.tar.gz", hash = "sha256:780b86de1e2e89612b970603e3225830e28c23c766d357d81c020956926d64a0", size = 58859 }
+sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/f9/34/6cfa748877d4a2033383ca703b9ad465fd758aaf531908b75396d974371d/pydantic_ai_slim-0.0.18.tar.gz", hash = "sha256:0ef6c79fe1af4bd95ef3cf19bc4f566c30f3c21b658e3689a8f20fc7324212d0", size = 62533 }
 wheels = [
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/bf/30/05486e8e8681e68369c3a52f64f1af400d8a80f17f694b7ac5f2f71bae2b/pydantic_ai_slim-0.0.15-py3-none-any.whl", hash = "sha256:fa9cd079c4d975ac92847041fb28a94a8db1823f2497e9007c40780483b02466", size = 77654 },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/fa/86/d9a4e6afa945af30ded4295563db46b6b1a53b49672dfc1654cce6e9d838/pydantic_ai_slim-0.0.18-py3-none-any.whl", hash = "sha256:c2c513002a95c379b2581228f779c2a418c796f796a0a19a3250653707455ced", size = 82089 },
 ]
 
 [package.optional-dependencies]
